@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+
+body{
+       border-left: solid #05436d 20px;
+      background-color: #FFFACD;
+}
+
+#main {
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    margin: auto; 
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    font-size: 36px;
+}
+
+#main div{
+    width: 70%;
+    margin: auto;
+}
+
+#main div:nth-child(3){
+    width: 100px;
+    margin: auto;
+}
+
+#input-txt{
+    width: 100%;
+    height: 120px;
+    padding: 4%;
+    border: solid #0A75BC 1.5px;
+    border-radius: 12px;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    transition: background-colour 2s;
+
+}
+
+#btn-translate{
+    width: 150px;
+    height: 40px;
+    margin: 20px 0%;
+    border: solid #231F20 1.5px ;
+    border-radius: 12px;
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    background-color: #0A75BC;
+    color: #FCE029;
+    transition: background-colour 2s;
+}
+
+#output-txt{
+    width: 100%;
+    height: 120px;
+    padding: 4%;
+     border: solid #0A75BC 1.5px;
+    border-radius: 12px;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+   transition: background-colour 2s;
+    
+}
+/* ######## Hover animation ######### */
+#btn-translate:hover{
+    background-color: #FCE029 ;
+    color: #0A75BC;
+}
+
+
+/* ################ Minion styling ###################### */
+
+.eyes{
+    display: flex;
+    width:175px;
+    margin:auto;
+    margin-top: 60px;
+  
+    
+}
+.eyes>div {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid grey 10px;
+}
+hr{
+   width: 20px;
+   height: 10px;
+   background-color: grey;
+   border:none;
+   margin-top: 33px;
+}
+.eyes>div>div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black ;
+    margin: 20px;
+}
+
+.mouth{
+    width: 150px;
+    height: 50px;
+    margin:auto;
+    margin-top: 20px;
+   
+}
+.mainmouth{
+    width: 150px;
+    height: 60px;
+    background-color: #640F0F;
+    border-radius: 0% 0% 100px 100px;
+   
+}
+.teeth{
+    display: flex;
+}
+.teeth>div{
+    width: 25px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 0% 0% 25px 25px;
+}
+
+.tongue{
+    width: 55px;
+    height: 20px;
+    background-color: #D54747;
+    margin-left: 32%;
+    margin-top: 13%;
+    border-radius: 50px 50px 25px 25px;
+}
+
+.dress {
+    width:180px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.straps{
+    display: flex;
+}
+.straps>div{
+    width: 20px;
+    height: 60px;
+    background-color: #0A75BC;
+}
+.straps div:nth-child(1){
+    transform: rotate(-45deg);
+    margin-top: -40px;
+    margin-left: 10px;
+  
+}
+.straps div:nth-child(2){
+    transform: rotate(45deg);
+    margin-left: 120px;
+    margin-top: -40px;
+}
+.dressbody{
+    width: 120px;
+    height: 80px;
+    background-color: #0A75BC;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.hands{
+    display: flex;
+    position:absolute;
+}
+.hands>div{
+     background-color:#FCE029;
+      border: solid grey 0.2px;
+     
+}
+.hands div:nth-child(1){
+   margin-left: -42px;
+    margin-top: -80px;
+     width: 50px;
+    height: 30px;
+     border-right: none;
+}
+.hands div:nth-child(2){
+    margin-left: 170px;
+    margin-top: -80px;
+    width: 100px;
+    height: 30px;
+     border-left: none;
+     border-right: none;
+   
+}
+
+
+.hands div:nth-child(2) div{
+    width: 30px;
+    height: 9px;
+    background-color: #FCE029;
+    border: solid grey 0.2px;
+     border-left: none;
+    position: absolute;
+}
+.hands div:nth-child(2) div:nth-child(1){
+    margin-top: 10px;
+    margin-left: 70px;
+    border: solid grey 0.2px;
+    border-radius: 0% 10px 10px 0%;
+}
+.hands div:nth-child(2) div:nth-child(2){
+    margin-top: 0px;
+    margin-left: 100px;
+    border-radius: 0% 10px 10px 0%;
+    
+}
+.hands div:nth-child(2) div:nth-child(3){
+   margin-top: 20px;
+   margin-left: 70px;
+   border: solid grey 0.2px;
+   border-radius: 0% 10px 10px 0%;
+}
+
+
+ .pants{
+     width:180px;
+     height: 80px;
+     background-color: #0A75BC;
+   border-radius: 0% 0% 35px 35px;
+     margin-top: -40px;
+     display: flex;
+ }
+ .pants>div{
+     width: 50px;
+     height: 50px;
+     background-color: #0A75BC;
+     margin-top: 75px;
+     margin-left: 25px;
+ }
+.minion{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+     background-color: #FCE029;
+    height: 300px;
+    border-radius: 70px 70px 0% 0%;
+    
+}
+
+.shoes{
+    display: flex;
+}
+.shoes>div{
+    width: 60px;
+     height: 40px;
+     background-color: #231F20;
+     margin-top: 35px;
+     border-radius: 0% 0% 25px 25px;
+    
+}
+.shoes div:nth-child(1){
+    margin-left: 20px;
+}
+.shoes div:nth-child(2){
+    margin-left: 15px;
+}
